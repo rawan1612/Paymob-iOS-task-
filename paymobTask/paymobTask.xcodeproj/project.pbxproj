@@ -9,13 +9,31 @@
 /* Begin PBXBuildFile section */
 		201B866B2E5F67D1008C21BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B866A2E5F67D1008C21BB /* AppDelegate.swift */; };
 		201B866D2E5F67D1008C21BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B866C2E5F67D1008C21BB /* SceneDelegate.swift */; };
-		201B866F2E5F67D1008C21BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B866E2E5F67D1008C21BB /* ViewController.swift */; };
 		201B86742E5F67D3008C21BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201B86732E5F67D3008C21BB /* Assets.xcassets */; };
 		201B86822E5F67D3008C21BB /* paymobTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86812E5F67D3008C21BB /* paymobTaskTests.swift */; };
 		201B868C2E5F67D3008C21BB /* paymobTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B868B2E5F67D3008C21BB /* paymobTaskUITests.swift */; };
 		201B868E2E5F67D3008C21BB /* paymobTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B868D2E5F67D3008C21BB /* paymobTaskUITestsLaunchTests.swift */; };
 		201B86A72E5F6A8B008C21BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201B86A62E5F6A8B008C21BB /* LaunchScreen.storyboard */; };
-		201B86A92E5F6AA9008C21BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201B86A82E5F6AA9008C21BB /* Main.storyboard */; };
+		201B86AC2E5F740B008C21BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201B86AA2E5F740B008C21BB /* Main.storyboard */; };
+		201B86B02E5F742D008C21BB /* MoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86AD2E5F742D008C21BB /* MoviesListViewController.swift */; };
+		201B86B12E5F742D008C21BB /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86AE2E5F742D008C21BB /* MoviesTableViewCell.swift */; };
+		201B86B22E5F742D008C21BB /* MoviesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 201B86AF2E5F742D008C21BB /* MoviesTableViewCell.xib */; };
+		201B86B42E5F7435008C21BB /* MoviesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86B32E5F7435008C21BB /* MoviesListViewModel.swift */; };
+		201B86B72E5F749B008C21BB /* MoviesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86B52E5F749A008C21BB /* MoviesRepository.swift */; };
+		201B86B82E5F749B008C21BB /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86B62E5F749B008C21BB /* RealmManager.swift */; };
+		201B86BA2E5F74A4008C21BB /* AlertContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86B92E5F74A4008C21BB /* AlertContext.swift */; };
+		201B86BF2E5F74C2008C21BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86BB2E5F74C2008C21BB /* Constants.swift */; };
+		201B86C02E5F74C2008C21BB /* Secrets .swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86BC2E5F74C2008C21BB /* Secrets .swift */; };
+		201B86C12E5F74C2008C21BB /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86BD2E5F74C2008C21BB /* UIImageView+Extensions.swift */; };
+		201B86C42E5F74D3008C21BB /* MovieObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86C22E5F74D3008C21BB /* MovieObject.swift */; };
+		201B86C52E5F74D3008C21BB /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86C32E5F74D3008C21BB /* MovieResponse.swift */; };
+		201B86C82E5F74ED008C21BB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86C62E5F74ED008C21BB /* NetworkManager.swift */; };
+		201B86C92E5F74ED008C21BB /* MovieError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86C72E5F74ED008C21BB /* MovieError.swift */; };
+		201B86CC2E5F74F9008C21BB /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86CA2E5F74F9008C21BB /* NetworkManagerProtocol.swift */; };
+		201B86CD2E5F74F9008C21BB /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86CB2E5F74F9008C21BB /* NetworkMonitor.swift */; };
+		3C7649B4195B26BF815366B6 /* Pods_paymobTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2739DBF010238FDFE530775 /* Pods_paymobTaskTests.framework */; };
+		8DF4CA63D268FAC9CD8423D1 /* Pods_paymobTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA88C8253A7AA0779F81DC /* Pods_paymobTask.framework */; };
+		DB17C03BE0E1A39752D8BF1B /* Pods_paymobTask_paymobTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDE1DE9FA993E99CB0461BF /* Pods_paymobTask_paymobTaskUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +53,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		20B95C662E5F7FE900BBA338 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		071AC080067A51BE7BFF01D3 /* Pods-paymobTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymobTask.debug.xcconfig"; path = "Target Support Files/Pods-paymobTask/Pods-paymobTask.debug.xcconfig"; sourceTree = "<group>"; };
+		1BDE1DE9FA993E99CB0461BF /* Pods_paymobTask_paymobTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paymobTask_paymobTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		201B86672E5F67D1008C21BB /* paymobTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paymobTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		201B866A2E5F67D1008C21BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		201B866C2E5F67D1008C21BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		201B866E2E5F67D1008C21BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		201B86732E5F67D3008C21BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		201B86782E5F67D3008C21BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		201B867D2E5F67D3008C21BB /* paymobTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paymobTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +80,34 @@
 		201B868B2E5F67D3008C21BB /* paymobTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymobTaskUITests.swift; sourceTree = "<group>"; };
 		201B868D2E5F67D3008C21BB /* paymobTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymobTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		201B86A62E5F6A8B008C21BB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		201B86A82E5F6AA9008C21BB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		201B86AB2E5F740B008C21BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../paymob inshaAllah/Paymob-iOS-task/paymobTask/paymobTask/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		201B86AD2E5F742D008C21BB /* MoviesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListViewController.swift; sourceTree = "<group>"; };
+		201B86AE2E5F742D008C21BB /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
+		201B86AF2E5F742D008C21BB /* MoviesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoviesTableViewCell.xib; sourceTree = "<group>"; };
+		201B86B32E5F7435008C21BB /* MoviesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesListViewModel.swift; sourceTree = "<group>"; };
+		201B86B52E5F749A008C21BB /* MoviesRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesRepository.swift; sourceTree = "<group>"; };
+		201B86B62E5F749B008C21BB /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		201B86B92E5F74A4008C21BB /* AlertContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertContext.swift; sourceTree = "<group>"; };
+		201B86BB2E5F74C2008C21BB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		201B86BC2E5F74C2008C21BB /* Secrets .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Secrets .swift"; sourceTree = "<group>"; };
+		201B86BD2E5F74C2008C21BB /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		201B86C22E5F74D3008C21BB /* MovieObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieObject.swift; sourceTree = "<group>"; };
+		201B86C32E5F74D3008C21BB /* MovieResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
+		201B86C62E5F74ED008C21BB /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		201B86C72E5F74ED008C21BB /* MovieError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieError.swift; sourceTree = "<group>"; };
+		201B86CA2E5F74F9008C21BB /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		201B86CB2E5F74F9008C21BB /* NetworkMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		201B86CE2E5F7757008C21BB /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B95C5E2E5F7F6E00BBA338 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B95C602E5F7F7300BBA338 /* SkeletonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SkeletonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B95C622E5F7F8000BBA338 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ADC4AAF1FBED736FF667805 /* Pods-paymobTask-paymobTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymobTask-paymobTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-paymobTask-paymobTaskUITests/Pods-paymobTask-paymobTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A4A0E71964C057A07CCCABD /* Pods-paymobTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymobTask.release.xcconfig"; path = "Target Support Files/Pods-paymobTask/Pods-paymobTask.release.xcconfig"; sourceTree = "<group>"; };
+		C2739DBF010238FDFE530775 /* Pods_paymobTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paymobTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C85B0DBCD295EC105E0B748E /* Pods-paymobTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymobTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-paymobTaskTests/Pods-paymobTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9AA88C8253A7AA0779F81DC /* Pods_paymobTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paymobTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE8FE11FE0D61C1A903C99D /* Pods-paymobTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymobTaskTests.release.xcconfig"; path = "Target Support Files/Pods-paymobTaskTests/Pods-paymobTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAF81601D4235749FD6B7C8A /* Pods-paymobTask-paymobTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymobTask-paymobTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-paymobTask-paymobTaskUITests/Pods-paymobTask-paymobTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF4CA63D268FAC9CD8423D1 /* Pods_paymobTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7649B4195B26BF815366B6 /* Pods_paymobTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB17C03BE0E1A39752D8BF1B /* Pods_paymobTask_paymobTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +145,8 @@
 				201B86802E5F67D3008C21BB /* paymobTaskTests */,
 				201B868A2E5F67D3008C21BB /* paymobTaskUITests */,
 				201B86682E5F67D1008C21BB /* Products */,
+				706516DBA84D49E2C5048C64 /* Pods */,
+				AC05977D439A0E097C0EBB32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +167,7 @@
 				201B869A2E5F6914008C21BB /* Core */,
 				201B866A2E5F67D1008C21BB /* AppDelegate.swift */,
 				201B866C2E5F67D1008C21BB /* SceneDelegate.swift */,
-				201B866E2E5F67D1008C21BB /* ViewController.swift */,
-				201B86A82E5F6AA9008C21BB /* Main.storyboard */,
+				201B86AA2E5F740B008C21BB /* Main.storyboard */,
 				201B86732E5F67D3008C21BB /* Assets.xcassets */,
 				201B86A62E5F6A8B008C21BB /* LaunchScreen.storyboard */,
 				201B86782E5F67D3008C21BB /* Info.plist */,
@@ -132,6 +195,7 @@
 		201B869A2E5F6914008C21BB /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				201B86BE2E5F74C2008C21BB /* Helpers */,
 				201B86A12E5F6970008C21BB /* NetworkManager */,
 				201B86A02E5F6965008C21BB /* Models */,
 				201B869F2E5F695C008C21BB /* DatabaseManager */,
@@ -170,6 +234,7 @@
 		201B869E2E5F694F008C21BB /* Alert */ = {
 			isa = PBXGroup;
 			children = (
+				201B86B92E5F74A4008C21BB /* AlertContext.swift */,
 			);
 			path = Alert;
 			sourceTree = "<group>";
@@ -177,6 +242,8 @@
 		201B869F2E5F695C008C21BB /* DatabaseManager */ = {
 			isa = PBXGroup;
 			children = (
+				201B86B52E5F749A008C21BB /* MoviesRepository.swift */,
+				201B86B62E5F749B008C21BB /* RealmManager.swift */,
 			);
 			path = DatabaseManager;
 			sourceTree = "<group>";
@@ -184,6 +251,8 @@
 		201B86A02E5F6965008C21BB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				201B86C22E5F74D3008C21BB /* MovieObject.swift */,
+				201B86C32E5F74D3008C21BB /* MovieResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -191,6 +260,10 @@
 		201B86A12E5F6970008C21BB /* NetworkManager */ = {
 			isa = PBXGroup;
 			children = (
+				201B86C72E5F74ED008C21BB /* MovieError.swift */,
+				201B86CA2E5F74F9008C21BB /* NetworkManagerProtocol.swift */,
+				201B86CB2E5F74F9008C21BB /* NetworkMonitor.swift */,
+				201B86C62E5F74ED008C21BB /* NetworkManager.swift */,
 			);
 			path = NetworkManager;
 			sourceTree = "<group>";
@@ -212,6 +285,9 @@
 		201B86A42E5F69D1008C21BB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				201B86AD2E5F742D008C21BB /* MoviesListViewController.swift */,
+				201B86AE2E5F742D008C21BB /* MoviesTableViewCell.swift */,
+				201B86AF2E5F742D008C21BB /* MoviesTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -219,8 +295,46 @@
 		201B86A52E5F69D6008C21BB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				201B86B32E5F7435008C21BB /* MoviesListViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		201B86BE2E5F74C2008C21BB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				201B86BB2E5F74C2008C21BB /* Constants.swift */,
+				201B86BC2E5F74C2008C21BB /* Secrets .swift */,
+				201B86BD2E5F74C2008C21BB /* UIImageView+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		706516DBA84D49E2C5048C64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				071AC080067A51BE7BFF01D3 /* Pods-paymobTask.debug.xcconfig */,
+				7A4A0E71964C057A07CCCABD /* Pods-paymobTask.release.xcconfig */,
+				CAF81601D4235749FD6B7C8A /* Pods-paymobTask-paymobTaskUITests.debug.xcconfig */,
+				2ADC4AAF1FBED736FF667805 /* Pods-paymobTask-paymobTaskUITests.release.xcconfig */,
+				C85B0DBCD295EC105E0B748E /* Pods-paymobTaskTests.debug.xcconfig */,
+				CAE8FE11FE0D61C1A903C99D /* Pods-paymobTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC05977D439A0E097C0EBB32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20B95C622E5F7F8000BBA338 /* RealmSwift.framework */,
+				20B95C602E5F7F7300BBA338 /* SkeletonView.framework */,
+				20B95C5E2E5F7F6E00BBA338 /* Kingfisher.framework */,
+				201B86CE2E5F7757008C21BB /* Kingfisher.framework */,
+				C9AA88C8253A7AA0779F81DC /* Pods_paymobTask.framework */,
+				1BDE1DE9FA993E99CB0461BF /* Pods_paymobTask_paymobTaskUITests.framework */,
+				C2739DBF010238FDFE530775 /* Pods_paymobTaskTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,9 +344,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 201B86912E5F67D3008C21BB /* Build configuration list for PBXNativeTarget "paymobTask" */;
 			buildPhases = (
+				07038977EB597D9384805785 /* [CP] Check Pods Manifest.lock */,
 				201B86632E5F67D1008C21BB /* Sources */,
 				201B86642E5F67D1008C21BB /* Frameworks */,
 				201B86652E5F67D1008C21BB /* Resources */,
+				20B95C662E5F7FE900BBA338 /* Embed Frameworks */,
+				9B220B19D3AC43F42F3B9CC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +364,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 201B86942E5F67D3008C21BB /* Build configuration list for PBXNativeTarget "paymobTaskTests" */;
 			buildPhases = (
+				8F74F3D8B41FEA553E2FC9EB /* [CP] Check Pods Manifest.lock */,
 				201B86792E5F67D3008C21BB /* Sources */,
 				201B867A2E5F67D3008C21BB /* Frameworks */,
 				201B867B2E5F67D3008C21BB /* Resources */,
@@ -265,9 +383,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 201B86972E5F67D3008C21BB /* Build configuration list for PBXNativeTarget "paymobTaskUITests" */;
 			buildPhases = (
+				A8A92CE08958AD2519F61300 /* [CP] Check Pods Manifest.lock */,
 				201B86832E5F67D3008C21BB /* Sources */,
 				201B86842E5F67D3008C21BB /* Frameworks */,
 				201B86852E5F67D3008C21BB /* Resources */,
+				5AACBF63BFA6B8096EB58D10 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,7 +449,8 @@
 			files = (
 				201B86742E5F67D3008C21BB /* Assets.xcassets in Resources */,
 				201B86A72E5F6A8B008C21BB /* LaunchScreen.storyboard in Resources */,
-				201B86A92E5F6AA9008C21BB /* Main.storyboard in Resources */,
+				201B86B22E5F742D008C21BB /* MoviesTableViewCell.xib in Resources */,
+				201B86AC2E5F740B008C21BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,14 +470,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07038977EB597D9384805785 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-paymobTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AACBF63BFA6B8096EB58D10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paymobTask-paymobTaskUITests/Pods-paymobTask-paymobTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paymobTask-paymobTaskUITests/Pods-paymobTask-paymobTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-paymobTask-paymobTaskUITests/Pods-paymobTask-paymobTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F74F3D8B41FEA553E2FC9EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-paymobTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B220B19D3AC43F42F3B9CC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paymobTask/Pods-paymobTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-paymobTask/Pods-paymobTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-paymobTask/Pods-paymobTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A92CE08958AD2519F61300 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-paymobTask-paymobTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		201B86632E5F67D1008C21BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				201B866F2E5F67D1008C21BB /* ViewController.swift in Sources */,
+				201B86B82E5F749B008C21BB /* RealmManager.swift in Sources */,
+				201B86BA2E5F74A4008C21BB /* AlertContext.swift in Sources */,
+				201B86B72E5F749B008C21BB /* MoviesRepository.swift in Sources */,
 				201B866B2E5F67D1008C21BB /* AppDelegate.swift in Sources */,
+				201B86C92E5F74ED008C21BB /* MovieError.swift in Sources */,
+				201B86BF2E5F74C2008C21BB /* Constants.swift in Sources */,
+				201B86CD2E5F74F9008C21BB /* NetworkMonitor.swift in Sources */,
+				201B86C12E5F74C2008C21BB /* UIImageView+Extensions.swift in Sources */,
+				201B86C52E5F74D3008C21BB /* MovieResponse.swift in Sources */,
+				201B86B12E5F742D008C21BB /* MoviesTableViewCell.swift in Sources */,
+				201B86B42E5F7435008C21BB /* MoviesListViewModel.swift in Sources */,
+				201B86C42E5F74D3008C21BB /* MovieObject.swift in Sources */,
+				201B86CC2E5F74F9008C21BB /* NetworkManagerProtocol.swift in Sources */,
 				201B866D2E5F67D1008C21BB /* SceneDelegate.swift in Sources */,
+				201B86C82E5F74ED008C21BB /* NetworkManager.swift in Sources */,
+				201B86B02E5F742D008C21BB /* MoviesListViewController.swift in Sources */,
+				201B86C02E5F74C2008C21BB /* Secrets .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +629,17 @@
 			targetProxy = 201B86882E5F67D3008C21BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		201B86AA2E5F740B008C21BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201B86AB2E5F740B008C21BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		201B868F2E5F67D3008C21BB /* Debug */ = {
@@ -514,12 +763,14 @@
 		};
 		201B86922E5F67D3008C21BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 071AC080067A51BE7BFF01D3 /* Pods-paymobTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HPRYG4G28Q;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = paymobTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -542,12 +793,14 @@
 		};
 		201B86932E5F67D3008C21BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4A0E71964C057A07CCCABD /* Pods-paymobTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HPRYG4G28Q;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = paymobTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -570,6 +823,7 @@
 		};
 		201B86952E5F67D3008C21BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C85B0DBCD295EC105E0B748E /* Pods-paymobTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -590,6 +844,7 @@
 		};
 		201B86962E5F67D3008C21BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE8FE11FE0D61C1A903C99D /* Pods-paymobTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -610,6 +865,7 @@
 		};
 		201B86982E5F67D3008C21BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF81601D4235749FD6B7C8A /* Pods-paymobTask-paymobTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -628,6 +884,7 @@
 		};
 		201B86992E5F67D3008C21BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ADC4AAF1FBED736FF667805 /* Pods-paymobTask-paymobTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
