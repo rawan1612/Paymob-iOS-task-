@@ -87,7 +87,7 @@ final class MoviesListViewModel: MoviesListViewModelProtocol {
         }
     }
     func getfromDB(){
-        let storedMovies = RealmManager.shared.getRealm().objects(MovieObject.self)
+        let storedMovies = repository.getMovies()
         self.moviesList.removeAll()
         self.moviesList.append(contentsOf:  storedMovies.map { Movie(id: $0.id, title: $0.title, posterPath: $0.posterURL, releaseDate: $0.releaseYear, voteAverage: Double($0.rating), overview: $0.overview) })
     }

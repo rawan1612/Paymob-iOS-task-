@@ -13,6 +13,7 @@ protocol MoviesRepositoryProtocol {
     func addOrUpdate(_ movie: MovieObject)
     func removeFavorite(movieId: Int)
     func getMovie(by id: Int) -> MovieObject?
+    func isFavorite(movieId: Int) -> Bool 
 }
 
 class MoviesRepository: MoviesRepositoryProtocol {
