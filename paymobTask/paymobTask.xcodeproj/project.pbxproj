@@ -31,6 +31,9 @@
 		201B86C92E5F74ED008C21BB /* MovieError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86C72E5F74ED008C21BB /* MovieError.swift */; };
 		201B86CC2E5F74F9008C21BB /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86CA2E5F74F9008C21BB /* NetworkManagerProtocol.swift */; };
 		201B86CD2E5F74F9008C21BB /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86CB2E5F74F9008C21BB /* NetworkMonitor.swift */; };
+		20B95C6F2E5F89A100BBA338 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B95C6D2E5F89A100BBA338 /* MovieDetailsViewController.swift */; };
+		20B95C702E5F89A100BBA338 /* MovieDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B95C6E2E5F89A100BBA338 /* MovieDetailsViewController.xib */; };
+		20B95C722E5F89B400BBA338 /* MovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B95C712E5F89B400BBA338 /* MovieDetailsViewModel.swift */; };
 		3C7649B4195B26BF815366B6 /* Pods_paymobTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2739DBF010238FDFE530775 /* Pods_paymobTaskTests.framework */; };
 		8DF4CA63D268FAC9CD8423D1 /* Pods_paymobTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9AA88C8253A7AA0779F81DC /* Pods_paymobTask.framework */; };
 		DB17C03BE0E1A39752D8BF1B /* Pods_paymobTask_paymobTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BDE1DE9FA993E99CB0461BF /* Pods_paymobTask_paymobTaskUITests.framework */; };
@@ -101,6 +104,9 @@
 		20B95C5E2E5F7F6E00BBA338 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B95C602E5F7F7300BBA338 /* SkeletonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SkeletonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B95C622E5F7F8000BBA338 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B95C6D2E5F89A100BBA338 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		20B95C6E2E5F89A100BBA338 /* MovieDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieDetailsViewController.xib; sourceTree = "<group>"; };
+		20B95C712E5F89B400BBA338 /* MovieDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewModel.swift; sourceTree = "<group>"; };
 		2ADC4AAF1FBED736FF667805 /* Pods-paymobTask-paymobTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymobTask-paymobTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-paymobTask-paymobTaskUITests/Pods-paymobTask-paymobTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7A4A0E71964C057A07CCCABD /* Pods-paymobTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paymobTask.release.xcconfig"; path = "Target Support Files/Pods-paymobTask/Pods-paymobTask.release.xcconfig"; sourceTree = "<group>"; };
 		C2739DBF010238FDFE530775 /* Pods_paymobTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_paymobTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -271,6 +277,8 @@
 		201B86A22E5F6983008C21BB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				20B95C6D2E5F89A100BBA338 /* MovieDetailsViewController.swift */,
+				20B95C6E2E5F89A100BBA338 /* MovieDetailsViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -278,6 +286,7 @@
 		201B86A32E5F69CA008C21BB /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				20B95C712E5F89B400BBA338 /* MovieDetailsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -451,6 +460,7 @@
 				201B86A72E5F6A8B008C21BB /* LaunchScreen.storyboard in Resources */,
 				201B86B22E5F742D008C21BB /* MoviesTableViewCell.xib in Resources */,
 				201B86AC2E5F740B008C21BB /* Main.storyboard in Resources */,
+				20B95C702E5F89A100BBA338 /* MovieDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,10 +590,12 @@
 			files = (
 				201B86B82E5F749B008C21BB /* RealmManager.swift in Sources */,
 				201B86BA2E5F74A4008C21BB /* AlertContext.swift in Sources */,
+				20B95C6F2E5F89A100BBA338 /* MovieDetailsViewController.swift in Sources */,
 				201B86B72E5F749B008C21BB /* MoviesRepository.swift in Sources */,
 				201B866B2E5F67D1008C21BB /* AppDelegate.swift in Sources */,
 				201B86C92E5F74ED008C21BB /* MovieError.swift in Sources */,
 				201B86BF2E5F74C2008C21BB /* Constants.swift in Sources */,
+				20B95C722E5F89B400BBA338 /* MovieDetailsViewModel.swift in Sources */,
 				201B86CD2E5F74F9008C21BB /* NetworkMonitor.swift in Sources */,
 				201B86C12E5F74C2008C21BB /* UIImageView+Extensions.swift in Sources */,
 				201B86C52E5F74D3008C21BB /* MovieResponse.swift in Sources */,

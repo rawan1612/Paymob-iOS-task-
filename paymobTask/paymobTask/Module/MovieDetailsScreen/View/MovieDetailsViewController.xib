@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MovieDetailsViewController" customModule="paymobTask" customModuleProvider="target">
+            <connections>
+                <outlet property="addToFavButtonOutlet" destination="cyL-6P-VxV" id="BEs-34-OKh"/>
+                <outlet property="languageLabel" destination="Gng-w7-6f1" id="pRa-h3-S8T"/>
+                <outlet property="movieTitleLabel" destination="alS-3i-s79" id="PgI-PQ-WM5"/>
+                <outlet property="movieVoting" destination="wLv-RB-TuD" id="aaB-Kq-8EA"/>
+                <outlet property="overviewTextView" destination="x2a-EO-3ws" id="XQq-uJ-zrt"/>
+                <outlet property="posterImage" destination="MfD-6Q-hw4" id="hVo-hi-A48"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="movieLogo" translatesAutoresizingMaskIntoConstraints="NO" id="MfD-6Q-hw4">
+                    <rect key="frame" x="0.0" y="59" width="393" height="250"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="TSA-rq-gum"/>
+                    </constraints>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6kM-Sh-G95">
+                    <rect key="frame" x="16" y="317" width="361" height="493"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="alS-3i-s79">
+                            <rect key="frame" x="0.0" y="0.0" width="361" height="117.33333333333333"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x2a-EO-3ws">
+                            <rect key="frame" x="0.0" y="125.33333333333331" width="361" height="117.33333333333331"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                            <color key="textColor" systemColor="labelColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLv-RB-TuD">
+                            <rect key="frame" x="0.0" y="250.66666666666663" width="361" height="117"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gng-w7-6f1">
+                            <rect key="frame" x="0.0" y="375.66666666666663" width="361" height="117.33333333333331"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyL-6P-VxV">
+                    <rect key="frame" x="241" y="59" width="152" height="142"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="sta"/>
+                    <connections>
+                        <action selector="addToFavButton:" destination="-1" eventType="touchUpInside" id="7B0-2B-dxM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="MfD-6Q-hw4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="7gA-If-6Rf"/>
+                <constraint firstItem="6kM-Sh-G95" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="FKs-sH-Htz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MfD-6Q-hw4" secondAttribute="trailing" id="Idb-Fi-ehX"/>
+                <constraint firstItem="MfD-6Q-hw4" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Ikl-z9-SIn"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6kM-Sh-G95" secondAttribute="trailing" constant="16" id="Qnk-Iv-7iG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="6kM-Sh-G95" secondAttribute="bottom" constant="8" id="aQp-TH-HFi"/>
+                <constraint firstItem="6kM-Sh-G95" firstAttribute="top" secondItem="MfD-6Q-hw4" secondAttribute="bottom" constant="8" id="sT2-uu-jGw"/>
+                <constraint firstItem="cyL-6P-VxV" firstAttribute="top" secondItem="MfD-6Q-hw4" secondAttribute="top" id="vZD-5r-IRt"/>
+                <constraint firstItem="cyL-6P-VxV" firstAttribute="trailing" secondItem="MfD-6Q-hw4" secondAttribute="trailing" id="w3a-hc-F2z"/>
+            </constraints>
+            <point key="canvasLocation" x="-103.05343511450381" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="movieLogo" width="512" height="512"/>
+        <image name="sta" width="128" height="128"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

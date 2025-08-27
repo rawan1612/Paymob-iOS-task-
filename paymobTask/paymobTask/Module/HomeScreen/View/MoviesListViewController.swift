@@ -139,7 +139,13 @@ extension MoviesListViewController : UITableViewDataSource , UITableViewDelegate
         
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-      
+        guard indexPath.row < moviesListViewModel.moviesList.count else { return }
+        let movie = moviesListViewModel.moviesList[indexPath.row]
+        let detailsVM = MovieDetailsViewModel(movie: movie)
+        let detailsVC = MovieDetailsViewController(nibName: "MovieDetailsViewController", bundle: nil)
+        detailsVC.movieDetailsVM = detailsVM
+
+        navigationController?.pushViewController(detailsVC, animated: true)
     }
     // pagination
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
