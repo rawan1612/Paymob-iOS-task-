@@ -1,0 +1,21 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserdata
+*.xcuserstate
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build
+
+# Swift Package Manager
+Packages/
+# Ignore secrets/constants
+App/Constants/Secrets.swift
+
+
+# Temporary files
+*.log
+*.tmp

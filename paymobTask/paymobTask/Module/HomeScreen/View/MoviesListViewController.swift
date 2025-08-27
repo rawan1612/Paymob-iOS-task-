@@ -113,7 +113,7 @@ extension MoviesListViewController : UITableViewDataSource , UITableViewDelegate
                 let url = URL(string: "\(Constants.BASE_IMAGE_URL)\(posterPath)") {
                  cell.moviePosterImage.setCachedImage(
                      urlString: "\(url)",
-                     placeholder: UIImage(named: "placeholder")
+                     placeholder: UIImage(named: "movie-placeholder")
                  )
              }
              
