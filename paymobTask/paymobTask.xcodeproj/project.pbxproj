@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201B866B2E5F67D1008C21BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B866A2E5F67D1008C21BB /* AppDelegate.swift */; };
+		201B866D2E5F67D1008C21BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B866C2E5F67D1008C21BB /* SceneDelegate.swift */; };
+		201B866F2E5F67D1008C21BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B866E2E5F67D1008C21BB /* ViewController.swift */; };
+		201B86742E5F67D3008C21BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201B86732E5F67D3008C21BB /* Assets.xcassets */; };
+		201B86822E5F67D3008C21BB /* paymobTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B86812E5F67D3008C21BB /* paymobTaskTests.swift */; };
+		201B868C2E5F67D3008C21BB /* paymobTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B868B2E5F67D3008C21BB /* paymobTaskUITests.swift */; };
+		201B868E2E5F67D3008C21BB /* paymobTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201B868D2E5F67D3008C21BB /* paymobTaskUITestsLaunchTests.swift */; };
+		201B86A72E5F6A8B008C21BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201B86A62E5F6A8B008C21BB /* LaunchScreen.storyboard */; };
+		201B86A92E5F6AA9008C21BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201B86A82E5F6AA9008C21BB /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		201B867E2E5F67D3008C21BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 201B865F2E5F67D1008C21BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 201B86662E5F67D1008C21BB;
+			remoteInfo = paymobTask;
+		};
+		201B86882E5F67D3008C21BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 201B865F2E5F67D1008C21BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 201B86662E5F67D1008C21BB;
+			remoteInfo = paymobTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		201B86672E5F67D1008C21BB /* paymobTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paymobTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		201B866A2E5F67D1008C21BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		201B866C2E5F67D1008C21BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		201B866E2E5F67D1008C21BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		201B86732E5F67D3008C21BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		201B86782E5F67D3008C21BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201B867D2E5F67D3008C21BB /* paymobTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paymobTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		201B86812E5F67D3008C21BB /* paymobTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymobTaskTests.swift; sourceTree = "<group>"; };
+		201B86872E5F67D3008C21BB /* paymobTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paymobTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		201B868B2E5F67D3008C21BB /* paymobTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymobTaskUITests.swift; sourceTree = "<group>"; };
+		201B868D2E5F67D3008C21BB /* paymobTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymobTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		201B86A62E5F6A8B008C21BB /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		201B86A82E5F6AA9008C21BB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		201B86642E5F67D1008C21BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201B867A2E5F67D3008C21BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201B86842E5F67D3008C21BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201B865E2E5F67D1008C21BB = {
+			isa = PBXGroup;
+			children = (
+				201B86692E5F67D1008C21BB /* paymobTask */,
+				201B86802E5F67D3008C21BB /* paymobTaskTests */,
+				201B868A2E5F67D3008C21BB /* paymobTaskUITests */,
+				201B86682E5F67D1008C21BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		201B86682E5F67D1008C21BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				201B86672E5F67D1008C21BB /* paymobTask.app */,
+				201B867D2E5F67D3008C21BB /* paymobTaskTests.xctest */,
+				201B86872E5F67D3008C21BB /* paymobTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		201B86692E5F67D1008C21BB /* paymobTask */ = {
+			isa = PBXGroup;
+			children = (
+				201B869B2E5F691F008C21BB /* Module */,
+				201B869A2E5F6914008C21BB /* Core */,
+				201B866A2E5F67D1008C21BB /* AppDelegate.swift */,
+				201B866C2E5F67D1008C21BB /* SceneDelegate.swift */,
+				201B866E2E5F67D1008C21BB /* ViewController.swift */,
+				201B86A82E5F6AA9008C21BB /* Main.storyboard */,
+				201B86732E5F67D3008C21BB /* Assets.xcassets */,
+				201B86A62E5F6A8B008C21BB /* LaunchScreen.storyboard */,
+				201B86782E5F67D3008C21BB /* Info.plist */,
+			);
+			path = paymobTask;
+			sourceTree = "<group>";
+		};
+		201B86802E5F67D3008C21BB /* paymobTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				201B86812E5F67D3008C21BB /* paymobTaskTests.swift */,
+			);
+			path = paymobTaskTests;
+			sourceTree = "<group>";
+		};
+		201B868A2E5F67D3008C21BB /* paymobTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				201B868B2E5F67D3008C21BB /* paymobTaskUITests.swift */,
+				201B868D2E5F67D3008C21BB /* paymobTaskUITestsLaunchTests.swift */,
+			);
+			path = paymobTaskUITests;
+			sourceTree = "<group>";
+		};
+		201B869A2E5F6914008C21BB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				201B86A12E5F6970008C21BB /* NetworkManager */,
+				201B86A02E5F6965008C21BB /* Models */,
+				201B869F2E5F695C008C21BB /* DatabaseManager */,
+				201B869E2E5F694F008C21BB /* Alert */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		201B869B2E5F691F008C21BB /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				201B869D2E5F693E008C21BB /* MovieDetailsScreen */,
+				201B869C2E5F692D008C21BB /* HomeScreen */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		201B869C2E5F692D008C21BB /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				201B86A52E5F69D6008C21BB /* ViewModel */,
+				201B86A42E5F69D1008C21BB /* View */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		201B869D2E5F693E008C21BB /* MovieDetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				201B86A32E5F69CA008C21BB /* ViewModel */,
+				201B86A22E5F6983008C21BB /* View */,
+			);
+			path = MovieDetailsScreen;
+			sourceTree = "<group>";
+		};
+		201B869E2E5F694F008C21BB /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		201B869F2E5F695C008C21BB /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		201B86A02E5F6965008C21BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		201B86A12E5F6970008C21BB /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		201B86A22E5F6983008C21BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		201B86A32E5F69CA008C21BB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		201B86A42E5F69D1008C21BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		201B86A52E5F69D6008C21BB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		201B86662E5F67D1008C21BB /* paymobTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201B86912E5F67D3008C21BB /* Build configuration list for PBXNativeTarget "paymobTask" */;
+			buildPhases = (
+				201B86632E5F67D1008C21BB /* Sources */,
+				201B86642E5F67D1008C21BB /* Frameworks */,
+				201B86652E5F67D1008C21BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = paymobTask;
+			productName = paymobTask;
+			productReference = 201B86672E5F67D1008C21BB /* paymobTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		201B867C2E5F67D3008C21BB /* paymobTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201B86942E5F67D3008C21BB /* Build configuration list for PBXNativeTarget "paymobTaskTests" */;
+			buildPhases = (
+				201B86792E5F67D3008C21BB /* Sources */,
+				201B867A2E5F67D3008C21BB /* Frameworks */,
+				201B867B2E5F67D3008C21BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				201B867F2E5F67D3008C21BB /* PBXTargetDependency */,
+			);
+			name = paymobTaskTests;
+			productName = paymobTaskTests;
+			productReference = 201B867D2E5F67D3008C21BB /* paymobTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		201B86862E5F67D3008C21BB /* paymobTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201B86972E5F67D3008C21BB /* Build configuration list for PBXNativeTarget "paymobTaskUITests" */;
+			buildPhases = (
+				201B86832E5F67D3008C21BB /* Sources */,
+				201B86842E5F67D3008C21BB /* Frameworks */,
+				201B86852E5F67D3008C21BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				201B86892E5F67D3008C21BB /* PBXTargetDependency */,
+			);
+			name = paymobTaskUITests;
+			productName = paymobTaskUITests;
+			productReference = 201B86872E5F67D3008C21BB /* paymobTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		201B865F2E5F67D1008C21BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					201B86662E5F67D1008C21BB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					201B867C2E5F67D3008C21BB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 201B86662E5F67D1008C21BB;
+					};
+					201B86862E5F67D3008C21BB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 201B86662E5F67D1008C21BB;
+					};
+				};
+			};
+			buildConfigurationList = 201B86622E5F67D1008C21BB /* Build configuration list for PBXProject "paymobTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 201B865E2E5F67D1008C21BB;
+			productRefGroup = 201B86682E5F67D1008C21BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				201B86662E5F67D1008C21BB /* paymobTask */,
+				201B867C2E5F67D3008C21BB /* paymobTaskTests */,
+				201B86862E5F67D3008C21BB /* paymobTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		201B86652E5F67D1008C21BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201B86742E5F67D3008C21BB /* Assets.xcassets in Resources */,
+				201B86A72E5F6A8B008C21BB /* LaunchScreen.storyboard in Resources */,
+				201B86A92E5F6AA9008C21BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201B867B2E5F67D3008C21BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201B86852E5F67D3008C21BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		201B86632E5F67D1008C21BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201B866F2E5F67D1008C21BB /* ViewController.swift in Sources */,
+				201B866B2E5F67D1008C21BB /* AppDelegate.swift in Sources */,
+				201B866D2E5F67D1008C21BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201B86792E5F67D3008C21BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201B86822E5F67D3008C21BB /* paymobTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201B86832E5F67D3008C21BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201B868C2E5F67D3008C21BB /* paymobTaskUITests.swift in Sources */,
+				201B868E2E5F67D3008C21BB /* paymobTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		201B867F2E5F67D3008C21BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 201B86662E5F67D1008C21BB /* paymobTask */;
+			targetProxy = 201B867E2E5F67D3008C21BB /* PBXContainerItemProxy */;
+		};
+		201B86892E5F67D3008C21BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 201B86662E5F67D1008C21BB /* paymobTask */;
+			targetProxy = 201B86882E5F67D3008C21BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		201B868F2E5F67D3008C21BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		201B86902E5F67D3008C21BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		201B86922E5F67D3008C21BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPRYG4G28Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = paymobTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.paymobTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		201B86932E5F67D3008C21BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPRYG4G28Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = paymobTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.paymobTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		201B86952E5F67D3008C21BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPRYG4G28Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.paymobTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/paymobTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/paymobTask";
+			};
+			name = Debug;
+		};
+		201B86962E5F67D3008C21BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPRYG4G28Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.paymobTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/paymobTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/paymobTask";
+			};
+			name = Release;
+		};
+		201B86982E5F67D3008C21BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPRYG4G28Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.paymobTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = paymobTask;
+			};
+			name = Debug;
+		};
+		201B86992E5F67D3008C21BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HPRYG4G28Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.paymobTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = paymobTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		201B86622E5F67D1008C21BB /* Build configuration list for PBXProject "paymobTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201B868F2E5F67D3008C21BB /* Debug */,
+				201B86902E5F67D3008C21BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201B86912E5F67D3008C21BB /* Build configuration list for PBXNativeTarget "paymobTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201B86922E5F67D3008C21BB /* Debug */,
+				201B86932E5F67D3008C21BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201B86942E5F67D3008C21BB /* Build configuration list for PBXNativeTarget "paymobTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201B86952E5F67D3008C21BB /* Debug */,
+				201B86962E5F67D3008C21BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201B86972E5F67D3008C21BB /* Build configuration list for PBXNativeTarget "paymobTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201B86982E5F67D3008C21BB /* Debug */,
+				201B86992E5F67D3008C21BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 201B865F2E5F67D1008C21BB /* Project object */;
+}
